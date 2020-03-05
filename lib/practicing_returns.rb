@@ -12,4 +12,5 @@ def hello(array)
 end
 
 
-puts hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
+array = hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
+puts array.inspect
