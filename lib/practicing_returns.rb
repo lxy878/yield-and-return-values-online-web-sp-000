@@ -12,4 +12,3 @@ end
 
 
 puts hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
-puts a
